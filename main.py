@@ -12,6 +12,8 @@ def main():
             character_number[character] += 1
         else:
             character_number[character] = 1
+    
+    character_number.sort(reverse=True)
     print(character_number)
 
 
