@@ -4,7 +4,7 @@ def main():
         
         file_contents = f.read()
         number_of_words = len(file_contents.split())
-        print(number_of_words)
+        
     character_number = {}
     for character in file_contents:
         character = character.lower()
@@ -12,6 +12,7 @@ def main():
             character_number[character] += 1
         else:
             character_number[character] = 1
+    print(character_number)
 
 
 
